@@ -1,0 +1,36 @@
+#partner{
+  
+  display: flex;
+  align-items: center;
+  background-color: #8e8b8b;
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255,0)94.9%, #f88 95% , #f88 100%), url(../img/photo-1540039155733-5bb30b53aa14.avif);
+  background-position: center;
+  animation-name: colorslide;
+  animation-duration: 1s;
+}
+@keyframes colorslide{
+  from{
+    background-position-left: 0%; 
+  }
+  to{
+     background-position-left: 100%;
+  }
+}
+
+#partner .wrap {
+  
+  gap: 40px;
+}
+#partner .wrap h2 {
+  
+}
+#partner .wrap h3 {
+  
+}
+#partner .wrap p {
+  
+  /*! margin: 40px 0; */
+}
+#partner .wrap a {
+  
+}

@@ -1,0 +1,84 @@
+header { 
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid #bbb;
+}
+header nav{
+  height: 80px;
+  align-items: center;
+}
+header .wrap {
+   
+}
+header .video{
+  
+}
+header h1{
+  
+}
+
+header .gnb {
+  height: 100%;
+  padding: 0;
+}
+
+header .gnb.menu {
+   
+}
+
+header .gnb.menu li {
+   
+}
+header .gnb a{
+  padding: 0px 40px;
+  height: calc(100% - 2px);
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+  border-bottom: 5px solid transparent;
+}
+header .gnb a:hover{
+  color: #000b75;
+  border-bottom: 5px solid;
+}
+header .gnb.menu li .submenu {
+  display: none;
+}
+header .gnb.menu li .submenu li {
+   
+}
+
+header .gnb.menu li .submenu li a {
+   
+}
+
+header .etc {
+   
+}
+header .etc a{
+   padding: 10px;
+  color: #e2e2e2;
+  transition: 0.3s;
+}
+header .etc a:hover{
+   color: white;
+}
+header .etc li {
+   
+  position: relative;
+}
+header .etc li:nth-child(2)::before{
+  content: "";
+  display: block;
+  width: 3px;
+  height: 3px;
+  background-color: #e2e2e2;
+  border-radius: 50%;
+  position: absolute;
+  left: -1px;
+  top: calc(50% - 0.5px);
+}
+header .etc li a {
+ 
+}

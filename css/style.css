@@ -1,0 +1,137 @@
+/* 구글폰트 */
+body{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+/* 레이아웃 스타일링 */
+.block{
+  display: block;
+}
+section{
+  height: 100vh;
+  height: 800px;
+}
+.wrap{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+}
+.flex-between{
+  justify-content: space-between;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+.flex-column-center{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /*! gap: 30px; */
+  justify-content: center;
+  margin: 0 auto;
+}
+nav a{
+  display: block;
+}
+/* 텍스트 스타일링  */
+.h1{
+  font-size: 66px;
+}
+.h2{
+  font-size: 54px;
+}
+.h3{
+  font-size: 35px;
+}
+.h4{
+  font-size: 25px;
+}
+.h5{
+  font-size: 20px;
+}
+.menu{
+  font-size: 18px;
+}
+.submenu{
+  font-size: 16px;
+}
+.p{
+  font-size: 18px;
+}
+.titlep{
+  font-size: 20px;
+}
+.m{
+  font-size: 16px;
+}
+.sm{
+  font-size: 14px;
+}
+.xs{
+  font-size: 12px;
+}
+/* 색 */
+.white, .white a{
+  color: white;
+}
+.gray{
+   color: #3e3e3e;
+}
+.black,.black a{
+  color: black !important;
+    
+}
+/* 버튼 */
+.rbutton{
+  
+  padding: 0 20px;
+  border: 1px solid;
+  height: 50px;
+  border-radius: 25px;
+  display: inline-block;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.rbutton::after{
+  content: "";
+  display: inline-block;
+  background-image: url(../img/svg/arrow-right-solid.svg);
+  width: 40px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+btn16{
+   font-size: 16px;
+}
+.hide{
+  display: none !important;
+}
+.more{
+  border: 1px solid #fff;
+  line-height: 1;
+  padding: 15px 30px;
+  color: white;
+  transition: 0.5s;
+}
+.more:hover{
+  background-color: #fff;
+  color: black;
+}
+.more::after{
+   content: "+";
+   margin-left: 10px;
+   transition: 0.5s;
+   position:relative;
+   left: 0;
+}
+.more:hover::after{
+  left: 10px;
+}
